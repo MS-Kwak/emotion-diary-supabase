@@ -1,15 +1,52 @@
 @import "tailwindcss";
 
+
 @font-face {
-  font-family: 'NanumSquare';
-  src: url('/NanumSquareBold.ttf');
+  font-family: 'NanumPenScript';
+  src: url('/NanumPenScript-Regular.ttf');
 }
 
 body * {
-  font-family: 'NanumSquare', '맑은 고딕', 'Malgun Gothic',
+  font-family: 'NanumPenScript', '맑은 고딕', 'Malgun Gothic',
     '돋움', Dotum, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
+.img_section > img {
+  width: 50%;
+}
+.img_section_1 {
+  background-color: rgb(100, 201, 100);
+}
+.img_section_2 {
+  background-color: rgb(157, 215, 114);
+}
+.img_section_3 {
+  background-color: rgb(253, 206, 23);
+}
+.img_section_4 {
+  background-color: rgb(253, 132, 70);
+}
+.img_section_5 {
+  background-color: rgb(253, 86, 95);
+}
+
+.EmotionItem_on_1 {
+  color: white;
+  background-color: rgb(100, 201, 100);
+}
+.EmotionItem_on_2 {
+  color: white;
+  background-color: rgb(157, 215, 114);
+}
+.EmotionItem_on_3 {
+  color: white;
+  background-color: rgb(253, 206, 23);
+}
+.EmotionItem_on_4 {
+  color: white;
+  background-color: rgb(253, 132, 70);
+}
+.EmotionItem_on_5 {
+  color: white;
+  background-color: rgb(253, 86, 95);
 }

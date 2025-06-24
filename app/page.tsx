@@ -1,3 +1,9 @@
+import UI from './ui';
+
 export default function Home() {
-  return <div>홈</div>;
+  return (
+    <main>
+      <UI />
+    </main>
+  );
 }

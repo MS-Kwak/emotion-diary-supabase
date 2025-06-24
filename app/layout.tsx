@@ -25,7 +25,11 @@ export default function RootLayout({ children }) {
             referrerPolicy="no-referrer"
           />
         </head>
-        <body>{children}</body>
+        <body className="w-full flex bg-gray-200">
+          <div className="bg-white w-full max-w-2/3 mx-auto p-6 min-h-screen">
+            {children}
+          </div>
+        </body>
       </html>
     </ReactQueryClientProvider>
   );
