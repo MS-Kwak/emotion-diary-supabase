@@ -2,7 +2,7 @@
 
 import { getDiaries } from '@/actions/diary-actions';
 import DiaryList from '@/components/diary-list';
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import { Button } from '@mui/material';
 import { useQuery } from '@tanstack/react-query';
 import { useEffect, useState } from 'react';

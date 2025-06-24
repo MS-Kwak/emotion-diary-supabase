@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import { Button } from '@mui/material';
 import useDiary from '@/hooks/useDiary';
 import { getStringedDate } from '@/utils/get-stringed-date';

@@ -1,8 +1,8 @@
 'use client';
 
-import Header from '@/components/Header';
+import Header from '@/components/header';
 import { Button } from '@mui/material';
-import Editor from '@/components/Editor';
+import Editor from '@/components/editor';
 import { useRouter } from 'next/navigation';
 import { useMutation } from '@tanstack/react-query';
 import { createDiary } from '@/actions/diary-actions';

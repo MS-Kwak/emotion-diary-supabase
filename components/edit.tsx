@@ -1,7 +1,7 @@
 'use client';
 
-import Header from '@/components/Header';
-import Editor from '@/components/Editor';
+import Header from '@/components/header';
+import Editor from '@/components/editor';
 import useDiary from '@/hooks/useDiary';
 import { useRouter } from 'next/navigation';
 import { useMutation } from '@tanstack/react-query';
