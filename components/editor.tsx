@@ -8,8 +8,6 @@ import { getStringedDate } from '@/utils/get-stringed-date';
 import { useRouter } from 'next/navigation';
 
 export default function Editor({ initData, onSubmit }) {
-  // const emotion_id = 1;
-
   const router = useRouter();
   const [input, setInput] = useState({
     created_at: new Date(),
@@ -27,8 +25,8 @@ export default function Editor({ initData, onSubmit }) {
   }, [initData]);
 
   const onChangeInput = (e) => {
-    console.log(e.target.name); // 어떤 요소에 입력이 들어온건지
-    console.log(e.target.value); // 입력된 값이 무엇인지?
+    // console.log(e.target.name); // 어떤 요소에 입력이 들어온건지
+    // console.log(e.target.value); // 입력된 값이 무엇인지?
 
     let name = e.target.name;
     let value = e.target.value;
